@@ -21,6 +21,7 @@ const renderCountry = function (data, className = '') {
 </article>
 
   `;
+//   After end method also there
   countriesContainer.insertAdjacentHTML('beforeend', html);
   countriesContainer.style.opacity = 1;
 };
