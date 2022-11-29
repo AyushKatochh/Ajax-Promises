@@ -1,5 +1,6 @@
 'use strict';
 
+
 const btn = document.querySelector('.btn-country');
 
 const countriesContainer = document.querySelector('.countries');
@@ -21,7 +22,7 @@ const renderCountry = function (data, className = '') {
 </article>
 
   `;
-//   After end method also there
+//   After end method also there to place quantity 
   countriesContainer.insertAdjacentHTML('beforeend', html);
   countriesContainer.style.opacity = 1;
 };
